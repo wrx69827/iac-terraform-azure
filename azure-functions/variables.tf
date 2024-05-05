@@ -22,3 +22,28 @@ variable "function" {
   type = string
   default = "My Function"
 }
+
+variable "my_area" {
+  type = string
+  default = "Europe"
+}
+
+variable "tier" {
+  type = string
+  default = "Standard"
+}
+
+variable "replication_type" {
+  type = string
+  default = "GRS"
+}
+
+variable "os" {
+  type = string
+  default = "Windows"
+}
+
+variable "sku" {
+  type = string
+  default = "P1v2"
+}
