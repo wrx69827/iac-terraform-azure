@@ -17,3 +17,8 @@ variable "tier" {
   type = string
   default = "Standard"
 }
+
+variable "replication_type" {
+  type = string
+  default = "GRS"
+}
